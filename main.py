@@ -64,5 +64,5 @@ for team, code, date in matches:
     milan_logo.create_oval(5, 5, 25, 25, fill="yellow")
     milan_logo.grid(row=0, column=4, padx=5)
 
-# Lancement de la boucle principale
+# Lancement de la boucle principalee
 root.mainloop()
