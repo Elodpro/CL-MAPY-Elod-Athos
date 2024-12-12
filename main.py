@@ -46,11 +46,11 @@ for team, code, date in matches:
     team_name = tk.Label(match_frame, text=team, bg="white")
     team_name.grid(row=0, column=1, padx=10)
 
-    # VS et date (centré)
+    # frame augmantant la taille des tuiles
     vs_frame = tk.Frame(match_frame, bg="white")
     vs_frame.grid(row=0, column=2, padx=200)
 
-    vs_label = tk.Label(vs_frame, text="VS", bg="white")
+    vs_label = tk.Label(vs_frame, text="", bg="white")
     vs_label.pack()
     date_label = tk.Label(vs_frame, text=date, bg="white")
     date_label.place(x=10,y=0)
@@ -63,6 +63,57 @@ for team, code, date in matches:
     milan_logo = tk.Canvas(match_frame, width=30, height=30, bg="white", highlightthickness=0)
     milan_logo.create_oval(5, 5, 25, 25, fill="yellow")
     milan_logo.grid(row=0, column=4, padx=5)
+
+    def btnActions1():
+        root = tk.Tk()
+        root.title("UEFA Champions League / Milan AC VS Milan AC")
+        root.geometry("800x600")
+        root.configure(bg="white")
+
+    def btnActions2():
+        root = tk.Tk()
+        root.title("UEFA Champions League / Milan AC VS Milan AC")
+        root.geometry("800x600")
+        root.configure(bg="white")
+
+    def btnActions3():
+        root = tk.Tk()
+        root.title("UEFA Champions League / Milan AC VS Milan AC")
+        root.geometry("800x600")
+        root.configure(bg="white")
+
+    def btnActions4():
+        root = tk.Tk()
+        root.title("UEFA Champions League / Milan AC VS Milan AC")
+        root.geometry("800x600")
+        root.configure(bg="white")
+
+    def btnActions5():
+        root = tk.Tk()
+        root.title("UEFA Champions League / Milan AC VS Milan AC")
+        root.geometry("800x600")
+        root.configure(bg="white")
+
+    def btnActions6():
+        root = tk.Tk()
+        root.title("UEFA Champions League / Milan AC VS Milan AC")
+        root.geometry("800x600")
+        root.configure(bg="white")
+
+    #Boutons dans l'ordre
+    bouton1 = tk.Button(root, text="VS", width=2, height=1, command=btnActions1)
+    bouton2 = tk.Button(root, text="VS", width=2, height=1, command=btnActions2)
+    bouton3 = tk.Button(root, text="VS", width=2, height=1, command=btnActions3)
+    bouton4 = tk.Button(root, text="VS", width=2, height=1, command=btnActions4)
+    bouton5 = tk.Button(root, text="VS", width=2, height=1, command=btnActions5)
+    bouton6 = tk.Button(root, text="VS", width=2, height=1, command=btnActions6)
+
+    bouton1.place(x=390,y=170)
+    bouton2.place(x=390,y=230)
+    bouton3.place(x=390,y=290)
+    bouton4.place(x=390, y=350)
+    bouton5.place(x=390,y=410)
+    bouton6.place(x=390,y=470)
 
 # Lancement de la boucle principalee
 root.mainloop()
