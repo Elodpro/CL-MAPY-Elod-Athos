@@ -70,11 +70,15 @@ for team, code, date in matches:
         root.geometry("800x600")
         root.configure(bg="white")
 
+        root.mainloop()
+
     def btnActions2():
         root = tk.Tk()
         root.title("UEFA Champions League / Milan AC VS Milan AC")
         root.geometry("800x600")
         root.configure(bg="white")
+
+        root.mainloop()
 
     def btnActions3():
         root = tk.Tk()
@@ -82,11 +86,15 @@ for team, code, date in matches:
         root.geometry("800x600")
         root.configure(bg="white")
 
+        root.mainloop()
+
     def btnActions4():
         root = tk.Tk()
         root.title("UEFA Champions League / Milan AC VS Milan AC")
         root.geometry("800x600")
         root.configure(bg="white")
+
+        root.mainloop()
 
     def btnActions5():
         root = tk.Tk()
@@ -94,11 +102,15 @@ for team, code, date in matches:
         root.geometry("800x600")
         root.configure(bg="white")
 
+        root.mainloop()
+
     def btnActions6():
         root = tk.Tk()
         root.title("UEFA Champions League / Milan AC VS Milan AC")
         root.geometry("800x600")
         root.configure(bg="white")
+
+        root.mainloop()
 
     #Boutons dans l'ordre
     bouton1 = tk.Button(root, text="VS", width=2, height=1, command=btnActions1)
