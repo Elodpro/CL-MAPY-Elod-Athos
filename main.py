@@ -70,6 +70,35 @@ for team, code, date in matches:
         root.geometry("800x600")
         root.configure(bg="white")
 
+        # En-tête avec les équipes et la date
+        header_frame = tk.Frame(root)
+        header_frame.pack(pady=10)
+
+        tk.Label(header_frame, text="MI", bg="yellow").pack(side=tk.LEFT, padx=10)
+        tk.Label(header_frame, text="24.06.20").pack(side=tk.LEFT, padx=50)
+        tk.Label(header_frame, text="MI", bg="yellow").pack(side=tk.LEFT, padx=10)
+
+        # Contenu principal
+        main_frame = tk.Frame(root, relief=tk.GROOVE, borderwidth=2)
+        main_frame.pack(padx=20, pady=10, fill=tk.BOTH, expand=True)
+
+        # Définition des sections et leurs éléments
+        sections = {
+            "Général": ["possession de balle: ", "tir au but: ", "duel gagné: ", "foules commises: "],
+            "attaque": ["total tirs: ", "tirs au but: ", "corners: "],
+            "défense": ["désarmer: "],
+            "distribution": ["total passes: ", "précisions des passes: "],
+            "discipline": ["foules commises: ", "cartons jaunes: ", "cartons rouges: "]
+        }
+
+        # Création des sections
+        for title, items in sections.items():
+            section_frame = tk.LabelFrame(main_frame, text=title)
+            section_frame.pack(padx=5, pady=5, fill=tk.X)
+
+            for item in items:
+                tk.Label(section_frame, text=item).pack(anchor=tk.W, padx=5)
+
         root.mainloop()
 
     def btnActions2():
@@ -77,6 +106,35 @@ for team, code, date in matches:
         root.title("UEFA Champions League / Milan AC VS Milan AC")
         root.geometry("800x600")
         root.configure(bg="white")
+
+        # En-tête avec les équipes et la date
+        header_frame = tk.Frame(root)
+        header_frame.pack(pady=10)
+
+        tk.Label(header_frame, text="ATH", bg="yellow").pack(side=tk.LEFT, padx=10)
+        tk.Label(header_frame, text="24.06.20").pack(side=tk.LEFT, padx=50)
+        tk.Label(header_frame, text="MI", bg="yellow").pack(side=tk.LEFT, padx=10)
+
+        # Contenu principal
+        main_frame = tk.Frame(root, relief=tk.GROOVE, borderwidth=2)
+        main_frame.pack(padx=20, pady=10, fill=tk.BOTH, expand=True)
+
+        # Définition des sections et leurs éléments
+        sections = {
+            "Général": ["possession de balle: ", "tir au but: ", "duel gagné: ", "foules commises: "],
+            "attaque": ["total tirs: ", "tirs au but: ", "corners: "],
+            "défense": ["désarmer: "],
+            "distribution": ["total passes: ", "précisions des passes: "],
+            "discipline": ["foules commises: ", "cartons jaunes: ", "cartons rouges: "]
+        }
+
+        # Création des sections
+        for title, items in sections.items():
+            section_frame = tk.LabelFrame(main_frame, text=title)
+            section_frame.pack(padx=5, pady=5, fill=tk.X)
+
+            for item in items:
+                tk.Label(section_frame, text=item).pack(anchor=tk.W, padx=5)
 
         root.mainloop()
 
@@ -86,6 +144,35 @@ for team, code, date in matches:
         root.geometry("800x600")
         root.configure(bg="white")
 
+        # En-tête avec les équipes et la date
+        header_frame = tk.Frame(root)
+        header_frame.pack(pady=10)
+
+        tk.Label(header_frame, text="BL", bg="yellow").pack(side=tk.LEFT, padx=10)
+        tk.Label(header_frame, text="24.06.20").pack(side=tk.LEFT, padx=50)
+        tk.Label(header_frame, text="MI", bg="yellow").pack(side=tk.LEFT, padx=10)
+
+        # Contenu principal
+        main_frame = tk.Frame(root, relief=tk.GROOVE, borderwidth=2)
+        main_frame.pack(padx=20, pady=10, fill=tk.BOTH, expand=True)
+
+        # Définition des sections et leurs éléments
+        sections = {
+            "Général": ["possession de balle: ", "tir au but: ", "duel gagné: ", "foules commises: "],
+            "attaque": ["total tirs: ", "tirs au but: ", "corners: "],
+            "défense": ["désarmer: "],
+            "distribution": ["total passes: ", "précisions des passes: "],
+            "discipline": ["foules commises: ", "cartons jaunes: ", "cartons rouges: "]
+        }
+
+        # Création des sections
+        for title, items in sections.items():
+            section_frame = tk.LabelFrame(main_frame, text=title)
+            section_frame.pack(padx=5, pady=5, fill=tk.X)
+
+            for item in items:
+                tk.Label(section_frame, text=item).pack(anchor=tk.W, padx=5)
+
         root.mainloop()
 
     def btnActions4():
@@ -93,6 +180,35 @@ for team, code, date in matches:
         root.title("UEFA Champions League / Milan AC VS Milan AC")
         root.geometry("800x600")
         root.configure(bg="white")
+
+        # En-tête avec les équipes et la date
+        header_frame = tk.Frame(root)
+        header_frame.pack(pady=10)
+
+        tk.Label(header_frame, text="PSG", bg="yellow").pack(side=tk.LEFT, padx=10)
+        tk.Label(header_frame, text="24.06.20").pack(side=tk.LEFT, padx=50)
+        tk.Label(header_frame, text="MI", bg="yellow").pack(side=tk.LEFT, padx=10)
+
+        # Contenu principal
+        main_frame = tk.Frame(root, relief=tk.GROOVE, borderwidth=2)
+        main_frame.pack(padx=20, pady=10, fill=tk.BOTH, expand=True)
+
+        # Définition des sections et leurs éléments
+        sections = {
+            "Général": ["possession de balle: ", "tir au but: ", "duel gagné: ", "foules commises: "],
+            "attaque": ["total tirs: ", "tirs au but: ", "corners: "],
+            "défense": ["désarmer: "],
+            "distribution": ["total passes: ", "précisions des passes: "],
+            "discipline": ["foules commises: ", "cartons jaunes: ", "cartons rouges: "]
+        }
+
+        # Création des sections
+        for title, items in sections.items():
+            section_frame = tk.LabelFrame(main_frame, text=title)
+            section_frame.pack(padx=5, pady=5, fill=tk.X)
+
+            for item in items:
+                tk.Label(section_frame, text=item).pack(anchor=tk.W, padx=5)
 
         root.mainloop()
 
@@ -102,6 +218,35 @@ for team, code, date in matches:
         root.geometry("800x600")
         root.configure(bg="white")
 
+        # En-tête avec les équipes et la date
+        header_frame = tk.Frame(root)
+        header_frame.pack(pady=10)
+
+        tk.Label(header_frame, text="BF", bg="yellow").pack(side=tk.LEFT, padx=10)
+        tk.Label(header_frame, text="24.06.20").pack(side=tk.LEFT, padx=50)
+        tk.Label(header_frame, text="MI", bg="yellow").pack(side=tk.LEFT, padx=10)
+
+        # Contenu principal
+        main_frame = tk.Frame(root, relief=tk.GROOVE, borderwidth=2)
+        main_frame.pack(padx=20, pady=10, fill=tk.BOTH, expand=True)
+
+        # Définition des sections et leurs éléments
+        sections = {
+            "Général": ["possession de balle: ", "tir au but: ", "duel gagné: ", "foules commises: "],
+            "attaque": ["total tirs: ", "tirs au but: ", "corners: "],
+            "défense": ["désarmer: "],
+            "distribution": ["total passes: ", "précisions des passes: "],
+            "discipline": ["foules commises: ", "cartons jaunes: ", "cartons rouges: "]
+        }
+
+        # Création des sections
+        for title, items in sections.items():
+            section_frame = tk.LabelFrame(main_frame, text=title)
+            section_frame.pack(padx=5, pady=5, fill=tk.X)
+
+            for item in items:
+                tk.Label(section_frame, text=item).pack(anchor=tk.W, padx=5)
+
         root.mainloop()
 
     def btnActions6():
@@ -109,6 +254,35 @@ for team, code, date in matches:
         root.title("UEFA Champions League / Milan AC VS Milan AC")
         root.geometry("800x600")
         root.configure(bg="white")
+
+        # En-tête avec les équipes et la date
+        header_frame = tk.Frame(root)
+        header_frame.pack(pady=10)
+
+        tk.Label(header_frame, text="PT", bg="yellow").pack(side=tk.LEFT, padx=10)
+        tk.Label(header_frame, text="24.06.20").pack(side=tk.LEFT, padx=50)
+        tk.Label(header_frame, text="MI", bg="yellow").pack(side=tk.LEFT, padx=10)
+
+        # Contenu principal
+        main_frame = tk.Frame(root, relief=tk.GROOVE, borderwidth=2)
+        main_frame.pack(padx=20, pady=10, fill=tk.BOTH, expand=True)
+
+        # Définition des sections et leurs éléments
+        sections = {
+            "Général": ["possession de balle: ", "tir au but: ", "duel gagné: ", "foules commises: "],
+            "attaque": ["total tirs: ", "tirs au but: ", "corners: "],
+            "défense": ["désarmer: "],
+            "distribution": ["total passes: ", "précisions des passes: "],
+            "discipline": ["foules commises: ", "cartons jaunes: ", "cartons rouges: "]
+        }
+
+        # Création des sections
+        for title, items in sections.items():
+            section_frame = tk.LabelFrame(main_frame, text=title)
+            section_frame.pack(padx=5, pady=5, fill=tk.X)
+
+            for item in items:
+                tk.Label(section_frame, text=item).pack(anchor=tk.W, padx=5)
 
         root.mainloop()
 
